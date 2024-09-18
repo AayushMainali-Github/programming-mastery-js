@@ -9,6 +9,13 @@ import Comments from "../../Assets/Home/comments.png";
 import Operators from "../../Assets/Home/operators.png";
 import StringMethods from "../../Assets/Home/stringmethods.png";
 import NumberMethods from "../../Assets/Home/numbermethods.png";
+import DateAndTime from "../../Assets/Home/dateandtime.png";
+import Functions from "../../Assets/Home/functions.png";
+import Math from "../../Assets/Home/math.png";
+import ConditionalStatements from "../../Assets/Home/conditionalstatements.png";
+import Loops from "../../Assets/Home/loops.png";
+import Arrays from "../../Assets/Home/arrays.png";
+import ArrayMethods from "../../Assets/Home/arraymethods.png";
 
 const Home = () => {
   return (
@@ -30,6 +37,13 @@ const Home = () => {
         <Item image={Operators} title="Operators" link="operators" />
         <Item image={StringMethods} title="String Methods" link="stringmethods" />
         <Item image={NumberMethods} title="Number Methods" link="numbermethods" />
+        <Item image={DateAndTime} title="Date And Time" link="dateandtime" />
+        <Item image={Functions} title="Functions" link="functions" />
+        <Item image={Math} title="Math" link="math" />
+        <Item image={ConditionalStatements} title="Conditional Statements" link="conditionalstatements" />
+        <Item image={Loops} title="Loops" link="loops" />
+        <Item image={Arrays} title="Arrays" link="arrays" />
+        <Item image={ArrayMethods} title="Array Methods" link="arraymethods" />
       </div>
     </div>
   );

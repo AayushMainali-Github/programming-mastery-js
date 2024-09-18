@@ -9,6 +9,13 @@ import Comments from "../Screens/Comments/Comments";
 import Operators from "../Screens/Operators/Operators";
 import StringMethods from "../Screens/StringMethods/StringMethods";
 import NumberMethods from "../Screens/NumberMethods/NumberMethods";
+import DateAndTime from "../Screens/DateAndTime/DateAndTime";
+import Functions from "../Screens/Functions/Functions";
+import Arrays from "../Screens/Arrays/Arrays";
+import ConditionalStatements from "../Screens/CondtionalStatements/ConditionalStatements";
+import Loops from "../Screens/Loops/Loops";
+import ArrayMethods from "../Screens/ArrayMethods/ArrayMethods";
+import Math from "../Screens/Math/Math";
 
 const Navigation = () => {
   return (
@@ -16,7 +23,6 @@ const Navigation = () => {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="/home" element={<Home />} />
           <Route path="/introduction" element={<Introduction />} />
           <Route path="/variables" element={<Variables />} />
           <Route path="/datatypes" element={<Datatypes />} />
@@ -24,6 +30,13 @@ const Navigation = () => {
           <Route path="/operators" element={<Operators />} />
           <Route path="/stringmethods" element={<StringMethods />} />
           <Route path="/numbermethods" element={<NumberMethods />} />
+          <Route path="/dateandtime" element={<DateAndTime />} />
+          <Route path="/functions" element={<Functions />} />
+          <Route path="/math" element={<Math />} />
+          <Route path="/conditionalstatements" element={<ConditionalStatements />} />
+          <Route path="/loops" element={<Loops />} />
+          <Route path="/arrays" element={<Arrays />} />
+          <Route path="/arraymethods" element={<ArrayMethods />} />
         </Route>
       </Routes>
     </BrowserRouter>
