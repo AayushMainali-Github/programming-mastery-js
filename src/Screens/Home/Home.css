@@ -1,0 +1,58 @@
+.home {
+  background-color: #171712;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.home > .img {
+  width: 1050px;
+  margin-top: 50px;
+}
+.home > .info {
+  position: relative;
+  top: -320px;
+  margin-bottom: -50px;
+}
+.home > .info > .title {
+  font-size: 48px;
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+  text-align: center;
+}
+.home > .info > .desc {
+  width: 900px;
+  font-weight: 400;
+  font-size: 17px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.home > .header {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+  width: 1050px;
+}
+.home > .items {
+  width: 1050px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+.home > .items > .link {
+  text-decoration: none;
+}
+.home > .items > .link > img {
+  width: 250px;
+}
+.home > .items > .link > div {
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  margin-top: 5px;
+  text-decoration: none;
+  text-align: center;
+}
