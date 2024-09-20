@@ -32,7 +32,7 @@ const Introduction = () => {
               full-stack development roles.
             </li>
           </ul>
-          <img style={{ width: 250, height: 250 }} src={JS} alt="Javascript" />
+          <img className="imgI" style={{ width: 250, height: 250 }} src={JS} alt="Javascript" />
         </div>
         <div className="subHeader">How to start?</div>
         <div className="description">

@@ -86,7 +86,7 @@
     font-size: 14px;
     line-height: 21px;
   }
-  img {
+  .imgI {
     display: none;
   }
 
@@ -131,7 +131,7 @@
     font-size: 11.5px;
     line-height: 17px;
   }
-  img {
+  .imgI {
     display: none;
   }
 

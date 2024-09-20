@@ -25,7 +25,7 @@ const Variables = () => {
             Understanding the differences and appropriate usage of these keywords is crucial for writing efficient and error-free code. The evolution of JavaScript from ES5 to ES6
             brought significant improvements in how variables are handled, leading to better practices and more robust applications.{" "}
           </div>
-          <img style={{ width: 240, height: 240 }} src={VariablePng} alt="Variable" />
+          <img className="imgI" style={{ width: 240, height: 240 }} src={VariablePng} alt="Variable" />
         </div>
 
         <div className="subHeader">Using var</div>
