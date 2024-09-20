@@ -18,6 +18,8 @@ import ArrayMethods from "../Screens/ArrayMethods/ArrayMethods";
 import Math from "../Screens/Math/Math";
 import Objects from "../Screens/Objects/Objects";
 import Events from "../Screens/Events/Events";
+import Error from "../Screens/Error/Error";
+import Soon from "../Screens/Soon/Soon";
 
 const Navigation = () => {
   return (
@@ -41,6 +43,8 @@ const Navigation = () => {
           <Route path="/arraymethods" element={<ArrayMethods />} />
           <Route path="/objects" element={<Objects />} />
           <Route path="/events" element={<Events />} />
+          <Route path="/soon" element={<Soon />} />
+          <Route path="*" element={<Error />} />
         </Route>
       </Routes>
     </BrowserRouter>
