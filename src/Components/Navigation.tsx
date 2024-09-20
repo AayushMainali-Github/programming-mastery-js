@@ -16,6 +16,8 @@ import ConditionalStatements from "../Screens/CondtionalStatements/ConditionalSt
 import Loops from "../Screens/Loops/Loops";
 import ArrayMethods from "../Screens/ArrayMethods/ArrayMethods";
 import Math from "../Screens/Math/Math";
+import Objects from "../Screens/Objects/Objects";
+import Events from "../Screens/Events/Events";
 
 const Navigation = () => {
   return (
@@ -37,6 +39,8 @@ const Navigation = () => {
           <Route path="/loops" element={<Loops />} />
           <Route path="/arrays" element={<Arrays />} />
           <Route path="/arraymethods" element={<ArrayMethods />} />
+          <Route path="/objects" element={<Objects />} />
+          <Route path="/events" element={<Events />} />
         </Route>
       </Routes>
     </BrowserRouter>

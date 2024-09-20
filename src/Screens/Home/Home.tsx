@@ -16,6 +16,8 @@ import ConditionalStatements from "../../Assets/Home/conditionalstatements.png";
 import Loops from "../../Assets/Home/loops.png";
 import Arrays from "../../Assets/Home/arrays.png";
 import ArrayMethods from "../../Assets/Home/arraymethods.png";
+import Objects from "../../Assets/Home/objects.png";
+import Events from "../../Assets/Home/events.png";
 
 const Home = () => {
   return (
@@ -44,6 +46,8 @@ const Home = () => {
         <Item image={Loops} title="Loops" link="loops" />
         <Item image={Arrays} title="Arrays" link="arrays" />
         <Item image={ArrayMethods} title="Array Methods" link="arraymethods" />
+        <Item image={Objects} title="Objects" link="objects" />
+        <Item image={Events} title="Events" link="events" />
       </div>
     </div>
   );

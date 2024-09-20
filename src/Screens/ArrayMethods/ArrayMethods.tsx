@@ -92,7 +92,7 @@ const allNumbersGreaterThanZero = numbers.every((number) => number > 0);
 console.log(allNumbersGreaterThanZero); // Output: true
 `}</Code>
 
-        <Bottom back="/arrays" next="/" />
+        <Bottom back="/arrays" next="/objects" />
       </div>
     </div>
   );
