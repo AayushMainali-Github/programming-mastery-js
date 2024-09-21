@@ -7,7 +7,7 @@ const Error = () => {
       style={{
         height: "100vh",
         justifyContent: "center",
-        fontSize: 100,
+        fontSize: 80,
         color: "white",
         textAlign: "center",
       }}
