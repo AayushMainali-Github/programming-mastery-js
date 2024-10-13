@@ -20,6 +20,7 @@ import Objects from "../Screens/Objects/Objects";
 import Events from "../Screens/Events/Events";
 import Error from "../Screens/Error/Error";
 import Soon from "../Screens/Soon/Soon";
+import DomManipulation from "../Screens/DomManipulation/DomManipulation";
 
 const Navigation = () => {
   return (
@@ -43,6 +44,7 @@ const Navigation = () => {
           <Route path="/arraymethods" element={<ArrayMethods />} />
           <Route path="/objects" element={<Objects />} />
           <Route path="/events" element={<Events />} />
+          <Route path="/dommanipulation" element={<DomManipulation />} />
           <Route path="/soon" element={<Soon />} />
           <Route path="*" element={<Error />} />
         </Route>

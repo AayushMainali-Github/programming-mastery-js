@@ -248,7 +248,11 @@ touchArea.addEventListener("touchstart", function(event) {
 `}
         </Code>
 
-        <Bottom back="/objects" next="/soon" />
+        <Bottom
+          back="/objects"
+          next="/dommanipulation
+        "
+        />
       </div>
     </div>
   );
