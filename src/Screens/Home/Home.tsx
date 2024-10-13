@@ -18,6 +18,10 @@ import Arrays from "../../Assets/Home/arrays.png";
 import ArrayMethods from "../../Assets/Home/arraymethods.png";
 import Objects from "../../Assets/Home/objects.png";
 import Events from "../../Assets/Home/events.png";
+import DomManipulation from "../../Assets/Home/dommanipulation.png";
+import CssManipulation from "../../Assets/Home/cssmanipulation.png";
+import ResponsiveWebDesign from "../../Assets/Home/responsivewebdesign.png";
+import FormHandling from "../../Assets/Home/formhandling.png";
 
 const Home = () => {
   return (
@@ -48,6 +52,13 @@ const Home = () => {
         <Item image={ArrayMethods} title="Array Methods" link="arraymethods" />
         <Item image={Objects} title="Objects" link="objects" />
         <Item image={Events} title="Events" link="events" />
+      </div>
+      <div className="header">Intermediate</div>
+      <div className="items">
+        <Item image={DomManipulation} title="Dom Manipulation" link="dommanipulation" />
+        <Item image={CssManipulation} title="Css Manipulation" link="cssmanipulation" />
+        <Item image={ResponsiveWebDesign} title="Responsive Web Design" link="responsivewebdesign" />
+        <Item image={FormHandling} title="Form Handling" link="Form Handling" />
       </div>
     </div>
   );
