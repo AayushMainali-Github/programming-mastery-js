@@ -22,6 +22,7 @@ import Error from "../Screens/Error/Error";
 import Soon from "../Screens/Soon/Soon";
 import DomManipulation from "../Screens/DomManipulation/DomManipulation";
 import CssManipulation from "../Screens/CssManipulation/CssManipulation";
+import ResponsiveWebDesign from "../Screens/ResponsiveWebDesign/ResponsiveWebDesign";
 
 const Navigation = () => {
   return (
@@ -47,6 +48,7 @@ const Navigation = () => {
           <Route path="/events" element={<Events />} />
           <Route path="/dommanipulation" element={<DomManipulation />} />
           <Route path="/cssmanipulation" element={<CssManipulation />} />
+          <Route path="/responsivewebdesign" element={<ResponsiveWebDesign />} />
           <Route path="/soon" element={<Soon />} />
           <Route path="*" element={<Error />} />
         </Route>
