@@ -21,6 +21,7 @@ import Events from "../Screens/Events/Events";
 import Error from "../Screens/Error/Error";
 import Soon from "../Screens/Soon/Soon";
 import DomManipulation from "../Screens/DomManipulation/DomManipulation";
+import CssManipulation from "../Screens/CssManipulation/CssManipulation";
 
 const Navigation = () => {
   return (
@@ -45,6 +46,7 @@ const Navigation = () => {
           <Route path="/objects" element={<Objects />} />
           <Route path="/events" element={<Events />} />
           <Route path="/dommanipulation" element={<DomManipulation />} />
+          <Route path="/cssmanipulation" element={<CssManipulation />} />
           <Route path="/soon" element={<Soon />} />
           <Route path="*" element={<Error />} />
         </Route>
