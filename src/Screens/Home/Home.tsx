@@ -58,7 +58,7 @@ const Home = () => {
         <Item image={DomManipulation} title="Dom Manipulation" link="dommanipulation" />
         <Item image={CssManipulation} title="Css Manipulation" link="cssmanipulation" />
         <Item image={ResponsiveWebDesign} title="Responsive Web Design" link="responsivewebdesign" />
-        <Item image={FormHandling} title="Form Handling" link="Form Handling" />
+        <Item image={FormHandling} title="Form Handling" link="formhandling" />
       </div>
     </div>
   );
